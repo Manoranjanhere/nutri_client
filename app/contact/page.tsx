@@ -28,7 +28,7 @@ export default function Contact() {
 
     try {
       // Use the waitlist endpoint
-      const response = await fetch('https://nutri-server.vercel.app/', {
+      const response = await fetch('https://nutri-server.vercel.app/api/waitlist', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
